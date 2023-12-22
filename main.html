@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+       
+        /*Media Queries*/
+        @media (max-width:768px) {
+            #sec1 h1 {
+
+                font-size: 12vw;
+
+            }
+
+            #sec1 #hd2 {
+
+                margin-left: 12vw;
+            }
+
+            #sec1 h2 {
+                margin-left: 47.6vw;
+                font-size: 0.6rem;
+            }
+
+            #wrkin {
+                width: 100%;
+                font-size: 1.6rem;
+            }
+
+            #wrkin a {
+                font-size: 1.2rem;
+            }
+
+            .about {
+                flex-direction: column;
+                margin-top: 6rem;
+
+            }
+
+            .about img {
+                height: 225px;
+                border-radius: 50%;
+            }
+
+            .about .atxt {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                margin-left: 2vw;
+                width: 81vw;
+            }
+
+            .about p {
+                font-size: 1rem;
+            }
+            .cards{
+                flex-direction: column;
+            }
+            .card{
+                width: 84vw;
+                margin: 1rem 0;
+            }
+            .card img {
+                width: 78vw;
+                height: 60%;
+            }
+            .card .name {
+                font-size: 7.4vw;
+             
+            }
+            .card p {
+                font-size: 5.5vw;
+                text-align: center;
+            }
+        }
+
+      
+    </style>
+</head>
+
+<body>
+    <div class="mnu">
+        <a>HOME</a>
+        <a>ABOUT</a>
+        <a>Contact</a>
+        <a>Services</a>
+        <a>PLUG</a>
+        <a>IXPERIENCE</a>
+    </div>
+    <nav>
+        <h2>Kuldeep Kant</h2>
+        <h2 id="menu">Menu+</h2>
+        <span class="cur"><span id="view">view</span></span>
+    </nav>
+    <section id="sec1">
+        <a><span class="cont">
+                <h1 class="ele" id="hd1">PRODUCT</h1>
+            </span></a>
+        <span class="cont">
+            <h1 class="ele" id="hd2">DESIGNER</h1>
+        </span>
+        <span class="cont">
+            <h2 class="ele">BASED IN TORONTO</h2>
+        </span>
+        <a class="honor" href="https://www.cynthiaugwu.com/">
+            <p id="p1">W.</p>
+            <p id="p2">Honors</p>
+        </a>
+        <div id="frelan">
+            <h2>AVAILABLE FOR FREELANCE</h2>
+            <h2>WORK FROM MAY 23'</h2>
+        </div>
+        <div id="wrkin">
+            <a href="">STUDENT AT GALGOTIAS UNIVERSITY<i class="ri-arrow-right-up-line"></i></a>
+            <a href="">PROTOPE AMBASSADOR<i class="ri-arrow-right-up-line"></i></a>
+        </div>
+        <div class="mcont">
+            <h6>THE PLUG</h6><span class="year">2023</span>
+        </div>
+        <div class="mcont">
+            <h6>IXPERIENCE</h6><span class="year">2023</span>
+        </div>
+        <div class="mcont">
+            <h6>HUDU</h6><span class="year">2023</span>
+        </div>
+        <div class="cards">
+            <div class="card" id="card1">
+                <img src="Subject1.png" alt="">
+                <h5 class="name">KAYDEN</h5>
+                <p>A boy who wields the power to move objects with his mind, shaping the world around him effortlessly.
+                </p>
+
+
+            </div>
+            <div class="card" id="card2"><img src="Subject2.png" alt="">
+                <h5 class="name">STELLA</h5>
+                <p>She delves into minds, unraveling thoughts and emotions, uncovering secrets others guard fervently..
+                </p>
+
+            </div>
+            <div class="card" id="card3">
+                <img src="Subject3.png" alt="">
+                <h5 class="name">QUINN</h5>
+                <p>A master of transformation, he slips into any form, from creatures to people, a chameleon in any
+                    setting.</p>
+            </div>
+        </div>
+        <div class="about">
+            <img src="me2.jpg" alt="">
+            <div class="atxt">
+                <h5>(ABOUT ME)</h5>
+                <p>
+                    I'm a product designer with a passion for creating products that not only look good but also solve
+                    real
+                    problems. When I'm not sketching ideas on paper, you can find me binge-watching a Netflix series or
+                    playing video games. My design philosophy is simple: make it visually appealing, functional, and
+                    bring a
+                    smile to people's faces. I'm the designer you want on your team if you want to make people say 'I
+                    need
+                    that in my life!'.</p>
+                <button id="tlk">Lets's talk</button>
+            </div>
+
+        </div>
+    </section>
+
+
+    <script src="main.js">
+
+    </script>
+</body>
+
+</html>
